@@ -26,8 +26,13 @@ Proses
 2. User dapat menginput jumlah orang.
 3. User dapat menentukan tanggal, bulan dan tahun pemesanan tempat.
 4. User dapat memilih tempat pemesanan yaitu outdoor atau indoor
-5. *Opsional* User dapat memesan makanan dan minuman untuk hari pemesanan.
-6. User dapat melihat bon pemesanan dan booking fee.
+  - Jika indoor penuh, maka user disarankan untuk memilih outdoor.
+  - Jika outdoor penuh, maka user disarankan untuk memilih indoor.
+  - Jika keduanya penuh, maka user disarankan untuk memilih ulang hari reservasi
+5. *Opsional* User dapat memesan makanan dan minuman untuk hari booking.
+6. User dapat melihat receipt pemesanan dan booking fee.
+7. User dapat membatalkan reservasi jika terjadi kesalahan.
+8. User mendapat reminder jika telah melewati batas 30 menit dari jam reservasi, maka booking tersebut hangus otomatis.
 ```
 
 Output
@@ -37,6 +42,6 @@ Output
   2. Jumlah orang
   3. Tanggal, bulan dan tahun
   4. Tempat pemesanan
-  5. Makanan dan minuman serta harganya
+  5. *Jika ada* Makanan dan minuman serta harganya
   6. Booking fee
 ```
